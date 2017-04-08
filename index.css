@@ -1,0 +1,593 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+ v2.0 | 20110126
+ License: none (public domain)
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,300italic,400italic,600italic,700italic);
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* General CSS */
+
+html *, body * {
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+strong, b {
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 20px;
+}
+
+em, i {
+
+}
+
+p {
+
+	margin-bottom: 20px;
+	line-height: 25px;
+	font-size: 15px;
+}
+
+h1 {
+	font-size: 50px;
+	line-height: 60px;
+}
+h2 {
+	font-size: 40px;
+	margin-bottom: 25px;
+}
+h3 {
+	font-size: 30px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+h4 {
+	font-size: 18px;
+	line-height: 30px;
+	padding-bottom: 4px;
+}
+.header-text {
+	position: absolute;
+	color: white;
+	bottom: 0;
+	top: 0;
+	margin: auto;
+	height: 140px;
+	width: 27%;
+	left: 20%;
+}
+
+.iphone {
+	position: absolute;
+	width: 662px;
+	bottom: -182px;
+	right: 15%;
+}
+header {
+
+	position: relative;
+	width: 100%;
+	/*background: url('img/Untitled-1.jpg') no-repeat center center /cover;*/
+	/*min-height: 951px;*/
+}
+.logo {
+	position: absolute;
+	padding: 30px;
+	left: 17%;
+}
+
+.img-header {
+	width: 100%;
+}
+.wrapp {
+
+	max-width: 1170px;
+	margin: 0px auto;
+	padding: 30px 30px;
+	overflow: hidden;
+}
+
+.wrapper2 {
+	width: 100%;
+	margin: 0;
+	clear: both;
+}
+
+.box {
+	color: white;
+	width: 25%;
+	height: 260px;
+	display: inline-block;
+	padding: 42px 10px 0 15px;
+	position: relative;
+	vertical-align: top;
+}
+
+.wrapper {
+	overflow: visible;
+	width: 100%;
+	margin: 0;
+	padding-left: 100px;
+}
+
+.font-zero {
+	font-size: 0;
+}
+
+.colorful-box {
+	background-image: url('img/rectangle.png');
+}
+.colorful-box1 {
+	background-image: url('img/rectangle1.png');
+}
+.colorful-box2 {
+	background-image: url('img/rectangle2.png');
+}
+.colorful-box3 {
+	width: 50%;
+	background-image: url('img/rectangle3.jpg');
+}
+.colorful-box4 {
+	background-image: url('img/rectangle4.png');
+}
+.colorful-box5 {
+	background-image: url('img/rectangle5.jpg');
+}
+.colorful-box6 {
+	background-image: url('img/rectangle6.png');
+}
+.right {
+	font-size: 16px;
+	position: absolute;
+	bottom: 20px;
+	right: 10%;
+}
+
+.coverPhoto {
+	background-size: cover;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+button {
+	cursor: pointer;
+}
+
+.col-3 {
+
+	width: 25%;
+	display: inline-block;
+	color: rgb(149,149,149);
+	padding-right: 20px;
+}
+.wrapper1 {
+
+	width: 100%;
+	position: relative;
+}
+.car-text {
+	position: absolute;
+	color: white;
+	bottom: 14%;
+	margin: auto;
+	width: 24%;
+	left: 20%;
+}
+.col-4 {
+	width: 33.33%;
+	display: inline-block;
+	color: white;
+	padding-right: 30px;
+}
+
+.bg1 {
+	background-color: rgb(130,201,157);
+	color: white;
+	width: 100%;
+	margin: 0;
+}
+
+.bg2 {
+	background-color: rgb(246,247,250);
+	width: 100%         :
+	margin: auto;
+}
+
+.col-2 {
+	width: 50%;
+	display: inline-block;
+}
+
+.btn-green {
+	background-color: rgb(130,202,156);
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+	border: 2px solid transparent;
+	transition: all 0.15s;
+}
+
+.btn-green:hover {
+	background-color: white;
+	color: rgb(130,202,156);
+	border: 2px solid rgb(130,202,156);
+}
+.shadow {
+	-webkit-box-shadow: 0px 0px 58px -4px rgba(179,179,179,1);
+	-moz-box-shadow: 0px 0px 58px -4px rgba(179,179,179,1);
+	box-shadow: 0px 0px 58px -4px rgba(179,179,179,1);
+}
+
+.greyDiv {
+
+	background-color: rgb(225,225,225);
+	border: aliceblue;
+	color: white;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 10px 20px;
+}
+.icons {
+	font-size: 16px;
+}
+
+.fa-icons {
+	padding-right: 4%;
+}
+.purpleDiv {
+	background-color: rgb(189,140,191);
+	border: aliceblue;
+	color: white;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+.rectangle {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	padding: 40px;
+}
+footer {
+	background-color: rgb(26,35,50);
+	width: 100%;
+	margin: auto;
+	color: white;
+}
+
+li {
+	line-height: 30px;
+	font-size: 15px;
+	color: white;
+}
+.top-align {
+	vertical-align: top;
+}
+.paragaph-left {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: rgb(149,149,149);
+	float: left;
+	width: 50%
+}
+
+.paragaph-right {
+	width: 50%;
+	float: right;
+	margin-top: 94px;
+	color: rgb(149,149,149);
+	padding: 60px 30px 0px;
+}
+
+.grey-text {
+	color: rgb(149,149,149);
+}
+
+.input {
+	border-style: none;
+	width: 85%;
+	height: 50px;
+	padding: 0 10px;
+	font-size: 14px;
+	color: silver;
+}
+.btn-input {
+	background-color: rgb(130,202,156);
+	border-style: none;
+	border: aliceblue;
+	color: white;
+	font-weight: bold;
+	width: 15%;
+	height: 50px;
+	padding-bottom: 8px;
+	transition: all 0.15s;
+}
+.text-blurred {
+	color: #57697f;
+	font-size: 13px;
+	width: 71%;
+}
+.col-middle {
+
+	width: 10%;
+	display: inline-block;
+}
+.col-right {
+
+	width: 40%;
+	display: inline-block;
+}
+
+/*responsive*/
+
+@media only screen and (max-width: 1550px) {
+	.iphone {
+		width: 560px;
+		right: 12%;
+	}
+	.header-text {
+		position: absolute;
+		color: white;
+		bottom: 0;
+		top: 0;
+		margin: auto;
+		height: 140px;
+		width: 32%;
+		left: 13%;
+	}
+	.logo {
+		left: 11%;
+	}
+	.car-text {
+		position: absolute;
+		color: white;
+		bottom: 14%;
+		margin: auto;
+		width: 29%;
+		left: 14%;
+	}
+}
+
+@media only screen and (max-width: 1310px) {
+	.iphone {
+		width: 480px;
+		right: 10%;
+	}
+
+	.header-text {
+		width: 37%;
+		left: 6%;
+	}
+	.logo {
+		left: 3%;
+	}
+
+	.wrapp {
+		max-width: 1170px;
+		margin: 0px auto;
+		padding: 30px 30px;
+		overflow: hidden;
+		display:flex;
+	}
+
+	.box {
+		width: 50%;
+	}
+
+	.colorful-box3 {
+		width: 100%;
+	}
+
+	.col-3 {
+		width: 50%;
+	}
+
+	.car-text {
+		position: absolute;
+		color: white;
+		bottom: 14%;
+		margin: auto;
+		width: 35%;
+		left: 6%;
+	}
+
+}
+
+
+@media only screen and (max-width: 1020px) {
+
+	.col-2.left {
+		padding: 40px;
+	}
+
+	.iphone {
+		width: 370px;
+		right: 10%;
+		font-size: 31px;
+		bottom: -100px;
+	}
+	.car-text {
+		bottom: 0;
+		width: 100%;
+		padding-left: 30px;
+		left: 0px;
+		padding-right: 30px;
+		top: 0;
+		height: 145px;
+	}
+
+	.paragaph-left {
+		color: rgb(149,149,149);
+		width: 100%;
+	}
+	.paragaph-right {
+		width: 100%;
+		color: rgb(149,149,149);
+		margin-top: 0px;
+		padding: 0px;
+	}
+
+	.header-text {
+		width: 44%;
+		left: 3%;
+	}
+
+	.logo {
+		padding-left: 30px;
+		left: 0px;
+	}
+
+	.bg1 > .wrapp > .font-zero > .col-4 {
+		width: 100%;
+	}
+	.col-2 {
+		width: 100%;
+	}
+	.footer, .col-4 {
+		width: 25%;
+	}
+	.col-right {
+		width: 100%;
+	}
+	.wrapper {
+		padding: 0px;
+	}
+
+	.left {
+		padding-left: 35px;
+	}
+	.wrapp{
+	display: block;	
+	}
+	
+	
+
+}
+
+@media only screen and (max-width: 750px) {
+	.iphone {
+		display: none;
+	}
+	.header-text {
+		width: 100%;
+		padding-left: 30px;
+		padding-right: 30px;
+		left: 0px;
+	}
+	.logo {
+
+		padding-left: 30px;
+	}
+	.box {
+		width: 100%;
+	}
+	.col-3 {
+		width: 100%;
+	}
+
+	h2 {
+		font-size: 31px;
+		padding: 0px;
+	}
+
+	header {
+		background: url('img/Untitled-1.jpg') no-repeat center;
+		background-size: cover;
+	}
+
+	header .img-header {
+		display: none;
+	}
+
+	.header-text {
+		position: relative;
+		height: auto;
+		width: auto;
+		padding: 100px 30px 70px 30px;
+	}
+
+	.wrapper1 {
+		background: url('img/car.jpg') no-repeat center;
+		background-size: cover;
+	}
+
+	.wrapper1 .img-header {
+		display: none;
+	}
+	.car-text {
+		position: relative;
+		height: auto;
+		width: auto;
+		padding: 70px 30px 70px 30px;
+	}
+
+ 
+@media only screen and (max-width: 500px) {
+
+	.col-4 {
+		width: 100%;
+		padding-bottom: 0px;
+		padding-right: 0px;
+	}
+	footer {
+		text-align: center;
+	}
+	.text-blurred {
+		width: 100%;
+	}
+	.fa-icons {
+		padding-right: 10%;
+	}
+
+	.input {
+		width: 80%;
+	}
+	.btn-input {
+		width: 20%;
+	}
+	.box{
+		padding: 0px 10px 0 15px;
+	}
+
+}
+
