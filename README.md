@@ -11,4 +11,4 @@ A landing page generated in HTML and adapted for different screen sizes  (Codear
 
 <div align="center"><img width="500" src="https://user-images.githubusercontent.com/18449614/173611592-83173ef5-dbee-4b75-800d-fc76381b0219.png"> </div><div align="center"><i></i></div>
 
-<div align="center"><img width="500" src="https://user-images.githubusercontent.com/18449614/173611625-382ceea0-e45b-49ee-9dbb-db836a59fd6a.png"> </div><div align="center"><i></i></div>
+<div align="center"><img width="500" src="https://user-images.githubusercontent.com/18449614/173611625-382ceea0-e45b-49ee-9dbb-db836a59fd6a.png"> </div><div align="center"><i>Figure 1: A responsive HTML landing page. </i></div>
